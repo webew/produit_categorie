@@ -1,0 +1,29 @@
+body{
+    width:65%;
+    margin:auto;/*centre la page*/
+}
+nav{
+    margin-bottom: 50px;
+}
+nav ul{
+    list-style-type: none;/*enlève les puces*/
+    padding:0;/*retire les marges internes*/
+    margin:0;/*retire les marges externes*/
+    display:flex;/*dispose les li horizontalement*/
+}
+nav ul li{
+    flex-grow: 1;/*étire les li*/
+    text-align: center;/*centre les a dans les li*/
+}
+nav ul li a{
+    display: block;
+    padding : 10px 0;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    background-color: black ;
+    color:white;
+}
+#divBonjour{
+    float: right;
+}
